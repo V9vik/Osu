@@ -10,7 +10,7 @@ import java.net.UnknownHostException;
 
         public class Main {
             public static void main(String[] args) {
-                int port = 8080; // Измените порт на 8080
+                int port = 8080;
 
                 try (ServerSocket serverSocket = new ServerSocket(port)) {
                     System.out.println("Сервер запущен. Ожидание подключения...");
